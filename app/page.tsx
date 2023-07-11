@@ -12,11 +12,11 @@ export default function Home() {
         <Navbar/>
       </div>
       <Container/>
-      <div className='box w-10/12 mx-auto max-md:mt-[-50px] mt-8 mb-[-20px]'></div>
+      <div id='services' className='box w-10/12 mx-auto max-md:mt-[-50px] mt-8 mb-[-20px]'></div>
       <Services/>
-      <div className='box w-10/12 mx-auto max-md:mt-[-50px] mt-8'></div>
+      <div id='projects' className='box w-10/12 mx-auto max-md:mt-[-50px] mt-8'></div>
       <Projects/>
-      <div className='box w-10/12 mx-auto max-md:mt-[-50px] mt-8'></div>
+      <div id='tools' className='box w-10/12 mx-auto max-md:mt-[-50px] mt-8'></div>
       <Tools/>
       <div className='w-10/12 mx-auto my-10'>
         <div className='flex items-start text-2xl text-neutral-300'><p className='text-5xl mr-2 mt-[2px]'>&#169;</p> Perfect Code <small className='mt-[2px] ml-2'>2023</small> </div>
