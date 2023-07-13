@@ -7,7 +7,7 @@ import Tools from './Tools'
 
 export default function Home() {
   return (
-    <div className=''>
+    <div className='max-w-[1280px]'>
       <div className='w-10/12 mx-auto pt-4'>
         <Navbar/>
       </div>
